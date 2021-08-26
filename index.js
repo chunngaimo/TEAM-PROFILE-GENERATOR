@@ -2,8 +2,8 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
 
-const output = path.resolve(__dirname, "output");
-const outputpath = path.join(OUTPUT_DIR, "team.html");
+const output = path.resolve(__dirname, "dist");
+const outputpath = path.join(output, "team.html");
 const render = require("./source/template");
 
 const Manager = require("./library/Manager");
@@ -143,8 +143,8 @@ function addIntern() {
 
 
 function buildHtml() {
-    if (!fs.existsSync(OUTPUT_DIR)) {
-        fs.mkdirSync(OUTPUT_DIR)
+    if (!fs.existsSync(output)) {
+        fs.mkdirSync(output)
     }
-    fs.writeFileSync(outputPath, render(team), "utf-8")
+    fs.writeFileSync(outputpath, render(team), "utf-8")
 }
