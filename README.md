@@ -8,6 +8,8 @@ This application generates a team profile through users input using Inquirer dis
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
+* [Walkthrough](#walkthrough)
+* [Screenshots](#screenshots)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
@@ -20,7 +22,11 @@ this application uses Jest for testing.
 
 ## Usage 
 use inquirer to enter info
-walk through video here - [Youtube Link](https://youtu.be/v5d3pK3VUWo)<br>
+
+## Walkthrough
+walk through video here - [Youtube Link](https://youtu.be/v5d3pK3VUWo)
+
+## Screenshots
 <img src="./assets/images/sampleHtml.jpg">
 
 ## License 
