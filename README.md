@@ -16,15 +16,15 @@ This application generates a team profile through users input using Inquirer dis
 * [Questions](#questions)
 
 ## Installation 
-clone the repository from GitHub and download Node.
+Clone the repository from GitHub and download Node.
 requires a file system and inquirer module. 
 this application uses Jest for testing.
 
 ## Usage 
-use inquirer to enter info
+Use inquirer to enter info
 
 ## Walkthrough
-walk through video here - [Youtube Link](https://youtu.be/v5d3pK3VUWo)
+Walk through video here - [Youtube Link](https://youtu.be/v5d3pK3VUWo)
 
 ## Screenshots
 <img src="./assets/images/sampleHtml.jpg">
